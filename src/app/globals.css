@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgb(34 211 238 / 0.06), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, rgb(139 92 246 / 0.05), transparent 60%),
+    #020617;
+}
+
+/* Thin dark scrollbars to match the SOC theme */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #334155 transparent;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-medium ring-1 transition hover:brightness-125 disabled:cursor-not-allowed disabled:opacity-35 disabled:hover:brightness-100;
+  }
+}
