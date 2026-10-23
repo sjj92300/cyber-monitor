@@ -4,7 +4,7 @@ A SOC-style security dashboard that pairs **live, real-world threat intelligence
 
 Built by **Stephanie Jones**, a U.S. military veteran and participant in Google's Launchpad for Veterans (Generative AI Leader) program, as a portfolio project for SOC and security analyst roles.
 
-**Live demo:** _LIVE_URL_
+**Live demo:** https://cyber-monitor-gamma.vercel.app
 
 ![Sentinel SOC overview dashboard](./screenshot.png)
 
